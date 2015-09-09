@@ -695,6 +695,7 @@ html[dir='rtl'] .dropdownToolbarButton {
     right: 10px;
     z-index: 3;
     font-size: 35px;
+    line-height: 40px;
     color: white;
     background-color: black;
     opacity: 0.5;
@@ -707,6 +708,11 @@ html[dir='rtl'] .dropdownToolbarButton {
     text-align: center;
     cursor: pointer;
     display: none;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 #overlayCloseButton:active {
     background-color: red;
